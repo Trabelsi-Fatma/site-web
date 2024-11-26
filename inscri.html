@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>inscription</title>
+    <link type="text/css" rel="stylesheet" href="inscri.css">
+  </head>
+  <body>
+    
+    <fieldset name="Inscription"><legend><h3>Inscription</h3></legend>
+      <form name="frm" action="" method="POST">
+        <table>
+            <tr>
+              <td><label>Titre :</label></td>
+              <td><input name="bt" type="radio" required="required">M<input name="bt" type="radio">Mme<br>
+              </td>
+              <td class="etoi">*<br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Prénom :</label></td>
+              <td><input class="txt" name="txt1" required="required" type="text"></td>
+              <td class="etoi">*<br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Nom :</label></td>
+              <td><input class="txt" name="txt2" required="required" type="text"></td>
+              <td class="etoi">*<br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 170px;"><label>E-mail :</label></td>
+              <td><input class="txt" name="txt3" required="required" type="email"></td>
+              <td class="etoi">*<br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Mot de passe :</label></td>
+              <td style="width: 420.3px;">&nbsp;<input class="txt" name="txt4" required="required"
+
+                  type="password" id="pwd"></td>
+              <td style="width: 12.2px;" class="etoi">*<br>
+              </td>
+              <td style="width: 300px;"><br>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Date de naissance :</label></td>
+              <td><input class="txt" name="dt" type="date"></td>
+              <td class="etoi">*<br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            
+            <tr>
+                <td><label>Services Gratuits :</label> </td>
+                <td> Microsft 365:<input type="checkbox"> FaceBook :<input type="checkbox"> Téléchargement après minuit<input type="checkbox">
+                  
+                </td>
+                <td><br><br>
+                </td>
+                <td>
+                </td>
+
+
+                
+              </tr>
+              <tr>
+                <td><label>Choisir un Opérateur :</label> </td>
+                <td> <select size="3">
+                        <option> Tunisie Télécom</option>
+                        <option> OoredoO</option>
+                        <option> Orange</option>
+                </select>
+
+                </td>
+                <td class="etoi">*<br>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td><label>Numéro de Téléphone :</label> </td>
+                <td> <input type="tel">
+
+                </td>
+                <td class="etoi">*<br>
+                </td>
+                <td>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td><br>
+                </td>
+                <td><input class="bt" name="bt2" value="Valider" type="submit"><br>
+                </td>
+                <td class="etoi" colspan="2">Afficher ici les erreurs
+                </td>
+              </tr>
+        </table>
+      </form>
+      
+    </fieldset>
+
+    <p><br>
+    </p>
+    
+  </body>
+</html>
